@@ -1,0 +1,473 @@
+{
+  "id": "832cad9f-a7bd-4d9f-aa5d-79b9323909c3",
+  "revision": 0,
+  "last_node_id": 6,
+  "last_link_id": 7,
+  "nodes": [
+    {
+      "id": 1,
+      "type": "CastPresetsStringSet",
+      "pos": [
+        50,
+        50
+      ],
+      "size": [
+        360,
+        382
+      ],
+      "flags": {},
+      "order": 0,
+      "mode": 0,
+      "inputs": [
+        {
+          "localized_name": "previous",
+          "name": "previous",
+          "shape": 7,
+          "type": "STRING_SET_LIST",
+          "link": null
+        },
+        {
+          "localized_name": "name",
+          "name": "name",
+          "type": "STRING",
+          "widget": {
+            "name": "name"
+          },
+          "link": null
+        },
+        {
+          "localized_name": "string_1",
+          "name": "string_1",
+          "type": "STRING",
+          "widget": {
+            "name": "string_1"
+          },
+          "link": null
+        },
+        {
+          "localized_name": "string_2",
+          "name": "string_2",
+          "type": "STRING",
+          "widget": {
+            "name": "string_2"
+          },
+          "link": null
+        },
+        {
+          "localized_name": "string_3",
+          "name": "string_3",
+          "type": "STRING",
+          "widget": {
+            "name": "string_3"
+          },
+          "link": null
+        },
+        {
+          "localized_name": "string_4",
+          "name": "string_4",
+          "type": "STRING",
+          "widget": {
+            "name": "string_4"
+          },
+          "link": null
+        },
+        {
+          "localized_name": "string_5",
+          "name": "string_5",
+          "type": "STRING",
+          "widget": {
+            "name": "string_5"
+          },
+          "link": null
+        },
+        {
+          "localized_name": "string_6",
+          "name": "string_6",
+          "type": "STRING",
+          "widget": {
+            "name": "string_6"
+          },
+          "link": null
+        }
+      ],
+      "outputs": [
+        {
+          "localized_name": "sets",
+          "name": "sets",
+          "type": "STRING_SET_LIST",
+          "links": [
+            1
+          ]
+        }
+      ],
+      "title": "Set A",
+      "properties": {
+        "Node name for S&R": "CastPresetsStringSet"
+      },
+      "widgets_values": [
+        "Example Character - Casual",
+        "Example Character, a tall woman",
+        "short black hair",
+        "green eyes",
+        "denim jacket and white t-shirt",
+        "",
+        ""
+      ],
+      "widgets_values_named": {
+        "name": "Example Character - Casual",
+        "string_1": "Example Character, a tall woman",
+        "string_2": "short black hair",
+        "string_3": "green eyes",
+        "string_4": "denim jacket and white t-shirt",
+        "string_5": "",
+        "string_6": ""
+      }
+    },
+    {
+      "id": 2,
+      "type": "CastPresetsStringSet",
+      "pos": [
+        450,
+        50
+      ],
+      "size": [
+        360,
+        382
+      ],
+      "flags": {},
+      "order": 1,
+      "mode": 0,
+      "inputs": [
+        {
+          "localized_name": "previous",
+          "name": "previous",
+          "shape": 7,
+          "type": "STRING_SET_LIST",
+          "link": 1
+        },
+        {
+          "localized_name": "name",
+          "name": "name",
+          "type": "STRING",
+          "widget": {
+            "name": "name"
+          },
+          "link": null
+        },
+        {
+          "localized_name": "string_1",
+          "name": "string_1",
+          "type": "STRING",
+          "widget": {
+            "name": "string_1"
+          },
+          "link": null
+        },
+        {
+          "localized_name": "string_2",
+          "name": "string_2",
+          "type": "STRING",
+          "widget": {
+            "name": "string_2"
+          },
+          "link": null
+        },
+        {
+          "localized_name": "string_3",
+          "name": "string_3",
+          "type": "STRING",
+          "widget": {
+            "name": "string_3"
+          },
+          "link": null
+        },
+        {
+          "localized_name": "string_4",
+          "name": "string_4",
+          "type": "STRING",
+          "widget": {
+            "name": "string_4"
+          },
+          "link": null
+        },
+        {
+          "localized_name": "string_5",
+          "name": "string_5",
+          "type": "STRING",
+          "widget": {
+            "name": "string_5"
+          },
+          "link": null
+        },
+        {
+          "localized_name": "string_6",
+          "name": "string_6",
+          "type": "STRING",
+          "widget": {
+            "name": "string_6"
+          },
+          "link": null
+        }
+      ],
+      "outputs": [
+        {
+          "localized_name": "sets",
+          "name": "sets",
+          "type": "STRING_SET_LIST",
+          "links": [
+            7
+          ]
+        }
+      ],
+      "title": "Set B",
+      "properties": {
+        "Node name for S&R": "CastPresetsStringSet"
+      },
+      "widgets_values": [
+        "Example Character - Formal",
+        "Example Character, a tall woman",
+        "short black hair",
+        "silver earrings",
+        "long navy evening gown",
+        "black heels",
+        ""
+      ],
+      "widgets_values_named": {
+        "name": "Example Character - Formal",
+        "string_1": "Example Character, a tall woman",
+        "string_2": "short black hair",
+        "string_3": "silver earrings",
+        "string_4": "long navy evening gown",
+        "string_5": "black heels",
+        "string_6": ""
+      }
+    },
+    {
+      "id": 3,
+      "type": "CastPresetsStringSetPicker",
+      "pos": [
+        870,
+        50
+      ],
+      "size": [
+        320,
+        222
+      ],
+      "flags": {},
+      "order": 2,
+      "mode": 0,
+      "inputs": [
+        {
+          "localized_name": "sets",
+          "name": "sets",
+          "type": "STRING_SET_LIST",
+          "link": 7
+        },
+        {
+          "localized_name": "parent",
+          "name": "parent",
+          "type": "COMBO",
+          "widget": {
+            "name": "parent"
+          },
+          "link": null
+        },
+        {
+          "localized_name": "separator",
+          "name": "separator",
+          "type": "STRING",
+          "widget": {
+            "name": "separator"
+          },
+          "link": null
+        }
+      ],
+      "outputs": [
+        {
+          "localized_name": "name",
+          "name": "name",
+          "type": "STRING",
+          "links": null
+        },
+        {
+          "localized_name": "string_1",
+          "name": "string_1",
+          "type": "STRING",
+          "links": null
+        },
+        {
+          "localized_name": "string_2",
+          "name": "string_2",
+          "type": "STRING",
+          "links": null
+        },
+        {
+          "localized_name": "string_3",
+          "name": "string_3",
+          "type": "STRING",
+          "links": null
+        },
+        {
+          "localized_name": "string_4",
+          "name": "string_4",
+          "type": "STRING",
+          "links": [
+            4
+          ]
+        },
+        {
+          "localized_name": "string_5",
+          "name": "string_5",
+          "type": "STRING",
+          "links": null
+        },
+        {
+          "localized_name": "string_6",
+          "name": "string_6",
+          "type": "STRING",
+          "links": null
+        },
+        {
+          "localized_name": "joined",
+          "name": "joined",
+          "type": "STRING",
+          "links": [
+            3
+          ]
+        }
+      ],
+      "title": "Picker",
+      "properties": {
+        "Node name for S&R": "CastPresetsStringSetPicker"
+      },
+      "widgets_values": [
+        "Example Character - Formal",
+        ", "
+      ],
+      "widgets_values_named": {
+        "parent": "Example Character - Formal",
+        "separator": ", "
+      }
+    },
+    {
+      "id": 4,
+      "type": "PreviewAny",
+      "pos": [
+        1230,
+        50
+      ],
+      "size": [
+        420,
+        260
+      ],
+      "flags": {},
+      "order": 4,
+      "mode": 0,
+      "inputs": [
+        {
+          "localized_name": "source",
+          "name": "source",
+          "type": "*",
+          "link": 3
+        }
+      ],
+      "outputs": [
+        {
+          "localized_name": "STRING",
+          "name": "STRING",
+          "type": "STRING",
+          "links": null
+        }
+      ],
+      "title": "Joined preview",
+      "properties": {
+        "Node name for S&R": "PreviewAny"
+      },
+      "widgets_values": [],
+      "widgets_values_named": {}
+    },
+    {
+      "id": 5,
+      "type": "PreviewAny",
+      "pos": [
+        1230,
+        360
+      ],
+      "size": [
+        420,
+        160
+      ],
+      "flags": {},
+      "order": 3,
+      "mode": 0,
+      "inputs": [
+        {
+          "localized_name": "source",
+          "name": "source",
+          "type": "*",
+          "link": 4
+        }
+      ],
+      "outputs": [
+        {
+          "localized_name": "STRING",
+          "name": "STRING",
+          "type": "STRING",
+          "links": null
+        }
+      ],
+      "title": "string_4 preview",
+      "properties": {
+        "Node name for S&R": "PreviewAny"
+      },
+      "widgets_values": [],
+      "widgets_values_named": {}
+    }
+  ],
+  "links": [
+    [
+      1,
+      1,
+      0,
+      2,
+      0,
+      "STRING_SET_LIST"
+    ],
+    [
+      3,
+      3,
+      7,
+      4,
+      0,
+      "STRING"
+    ],
+    [
+      4,
+      3,
+      4,
+      5,
+      0,
+      "STRING"
+    ],
+    [
+      7,
+      2,
+      0,
+      3,
+      0,
+      "STRING_SET_LIST"
+    ]
+  ],
+  "groups": [],
+  "config": {},
+  "extra": {
+    "ds": {
+      "scale": 0.95,
+      "offset": [
+        10,
+        60
+      ]
+    }
+  },
+  "version": 0.4
+}
